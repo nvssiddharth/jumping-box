@@ -42,7 +42,7 @@ function draw() {
     //bounceoff function for ball
     ball.bounceOff(edges);
      
-    //add condition to check if box touching surface and make it box
+    //when ball touches the surfaces
     if(surface1.isTouching(ball) && ball.bounceOff(surface1)){
         ball.shapeColor="red";
         music.loop();
